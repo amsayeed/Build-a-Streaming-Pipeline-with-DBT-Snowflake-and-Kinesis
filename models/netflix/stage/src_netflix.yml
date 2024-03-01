@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: netflix
+    database: PROD
+    schema: DBT_RAW
+    tables:
+      - name: TITLES
+      - name: CREDITS
